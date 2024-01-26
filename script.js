@@ -1,35 +1,65 @@
-const salary = 35000;
-const BCS = true;
-let height = 64;
-const hasCar = true;
+// const salary = 35000;
+// const BCS = true;
+// let height = 64;
+// const hasCar = true;
 
 
-if(20000 < salary){
-    console.log("Kobul")
-}else{
-    console.log("Tomar kono jogota nai")
+// if(20000 < salary){
+//     console.log("Kobul")
+// }else{
+//     console.log("Tomar kono jogota nai")
+// }
+
+
+
+// if( 21000 <= salary || height > 70){
+//     console.log("Parfect gorgious")
+// }else{
+//     console.log("Not parfect")
+// }
+
+
+// if(salary >= 30000  && height <= 78){
+//     console.log("Parfect gorgious")
+// }else{
+//     console.log("Not parfect")
+// }
+
+
+
+// // ===================complex================
+// if((20000 <= salary && hasCar === false) || BCS === true){
+//     console.log("OK")
+// }else{
+//     console.log("Complex")
+// }
+
+
+
+
+
+
+// multipel else, else if , else
+const price = 1000;
+
+const tenPersent = 10;
+const fivePersent = 5;
+
+if(price >= 5000){
+    // 10% discount
+    let discount = price * 10 / 100;
+    let totalPrice = price - discount
+    console.log(totalPrice)
+}else if(price > 2500){
+    let discount = price * 5 / 100;
+    let totalPrice = price - discount
+    console.log(totalPrice)
+}else if(price >= 1000){
+    let discount = price * 2 / 100;
+    let totalPrice = price - discount
+    console.log(totalPrice)
+
 }
-
-
-
-if( 21000 <= salary || height > 70){
-    console.log("Parfect gorgious")
-}else{
-    console.log("Not parfect")
-}
-
-
-if(salary >= 30000  && height <= 78){
-    console.log("Parfect gorgious")
-}else{
-    console.log("Not parfect")
-}
-
-
-
-// ===================complex================
-if((20000 <= salary && hasCar === false) || BCS === true){
-    console.log("OK")
-}else{
-    console.log("Complex")
+else{
+    console.log("dicount not allow")
 }
