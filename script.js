@@ -1,6 +1,7 @@
 const salary = 35000;
 const BCS = true;
 let height = 64;
+const hasCar = true;
 
 
 if(20000 < salary){
@@ -24,3 +25,11 @@ if(salary >= 30000  && height <= 78){
     console.log("Not parfect")
 }
 
+
+
+// ===================complex================
+if((20000 <= salary && hasCar === false) || BCS === true){
+    console.log("OK")
+}else{
+    console.log("Complex")
+}
