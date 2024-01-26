@@ -45,21 +45,60 @@ const price = 1000;
 const tenPersent = 10;
 const fivePersent = 5;
 
-if(price >= 5000){
-    // 10% discount
-    let discount = price * 10 / 100;
-    let totalPrice = price - discount
-    console.log(totalPrice)
-}else if(price > 2500){
-    let discount = price * 5 / 100;
-    let totalPrice = price - discount
-    console.log(totalPrice)
-}else if(price >= 1000){
-    let discount = price * 2 / 100;
-    let totalPrice = price - discount
-    console.log(totalPrice)
+// if(price >= 5000){
+//     // 10% discount
+//     let discount = price * 10 / 100;
+//     let totalPrice = price - discount
+//     console.log(totalPrice)
+// }else if(price > 2500){
+//     let discount = price * 5 / 100;
+//     let totalPrice = price - discount
+//     console.log(totalPrice)
+// }else if(price >= 1000){
+//     let discount = price * 2 / 100;
+//     let totalPrice = price - discount
+//     console.log(totalPrice)
 
+// }
+// else{
+//     console.log("dicount not allow")
+// }
+
+
+
+
+
+// age discount
+// let age =61;
+// let product = 500;
+// if(age <= 20){
+//     console.log("bibaho korte parbe")
+// }else if(age >= 50){
+//     let dicount = product * 10 / 100;
+//     console.log(dicount) 
+
+// }
+//     else{
+//     console.log("Hello")
+// }
+
+
+// HSC result
+let result =45;
+
+if(result >= 80 && result <= 100){
+    console.log("A+")
+}else if (result >= 70 && result <= 79){
+    console.log("A")
 }
-else{
-    console.log("dicount not allow")
+else if (result >= 60 && result <= 69){
+    console.log("A-")
+}
+else if (result >= 50 && result <= 59){
+    console.log("B")
+}
+else if (result >= 40 && result <= 49){
+    console.log("C")
+}else{
+    console.log("Fail")
 }
