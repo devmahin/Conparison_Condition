@@ -27,7 +27,7 @@
 
 
 
-// // ===================complex================
+// ===================complex================
 // if((20000 <= salary && hasCar === false) || BCS === true){
 //     console.log("OK")
 // }else{
@@ -46,7 +46,7 @@ const tenPersent = 10;
 const fivePersent = 5;
 
 // if(price >= 5000){
-//     // 10% discount
+//  10% discount
 //     let discount = price * 10 / 100;
 //     let totalPrice = price - discount
 //     console.log(totalPrice)
@@ -84,21 +84,64 @@ const fivePersent = 5;
 
 
 // HSC result
-let result =45;
+// let result =45;
 
-if(result >= 80 && result <= 100){
-    console.log("A+")
-}else if (result >= 70 && result <= 79){
-    console.log("A")
-}
-else if (result >= 60 && result <= 69){
-    console.log("A-")
-}
-else if (result >= 50 && result <= 59){
-    console.log("B")
-}
-else if (result >= 40 && result <= 49){
-    console.log("C")
-}else{
-    console.log("Fail")
-}
+// if(result >= 80 && result <= 100){
+//     console.log("A+")
+// }else if (result >= 70 && result <= 79){
+//     console.log("A")
+// }
+// else if (result >= 60 && result <= 69){
+//     console.log("A-")
+// }
+// else if (result >= 50 && result <= 59){
+//     console.log("B")
+// }
+// else if (result >= 40 && result <= 49){
+//     console.log("C")
+// }else{
+//     console.log("Fail")
+// } 
+
+
+
+// let money = 440;
+// if(money >=300){
+//     console.log(true)
+// }
+
+
+
+// ternary three parts
+// simple ternary
+// let applePrice = 350;
+// let appleResult = applePrice >= 360?  console.log("vote dio") : console.log("vote dio nah");
+
+
+
+// advance ternary
+// let mangoPrice = 600;
+let lider = true;
+
+// mangoPrice = lider === true ? 0 :  mangoPrice + 400; 
+// console.log(mangoPrice)
+
+
+// optional ternary
+let tometo = 100;
+// if(lider === true){
+//     if(tometo > 1000){
+//         tometo /= 2
+//     }
+//     else{
+//         tometo = 0
+//     }
+// }else{
+//     tometo = tometo
+// }
+// console.log(parseInt(tometo))
+
+
+
+tometo = lider === false ? tometo > 1000? tometo / 2: 0 : tometo + 100;
+console.log(tometo)
