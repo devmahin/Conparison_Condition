@@ -19,4 +19,5 @@ if (score >= 90) {
    grade = "F"
 }
 console.log(grade);
+console.log(grade);
 console.log()
