@@ -122,21 +122,21 @@ Note:
 use nested if-else-if-else
 */
 
-// let score = 71;
-// if(score > 80){
-//     console.log("go for a lunch")
-// }else if(score >= 60 && score <= 80){
-//     console.log("good luck next time.")
-// }
-// else if(score >= 40 && score < 60){
-//     console.log("hidden")
-// }else if(score < 40){
-//     console.log("block your friend")
-// }else if(score <= 80){
-//     console.log("go to home and sleep and act sad")
-// }else{
-//     console.log("oK")
-// }
+let score = 71;
+if(score > 80){
+    console.log("go for a lunch")
+}else if(score >= 60 && score <= 80){
+    console.log("good luck next time.")
+}
+else if(score >= 40 && score < 60){
+    console.log("hidden")
+}else if(score < 40){
+    console.log("block your friend")
+}else if(score <= 80){
+    console.log("go to home and sleep and act sad")
+}else{
+    console.log("oK")
+}
 
 
 
@@ -156,20 +156,20 @@ also, write it using ternary operator.
  */
 
 
-// let num1 =  70;
-// let num2 = 90;
-// let result;
-// if(num1 >= num2){
-//    result = num1 * 2;
-// }else{
-//     result = num1 + num2
-// }
-// console.log(result)
+let num1 =  70;
+let num2 = 90;
+let result;
+if(num1 >= num2){
+   result = num1 * 2;
+}else{
+    result = num1 + num2
+}
+console.log(result)
 
 
-// ternaryResult
-// let ternaryResult = num1 >= num2? num1 * 2: num1 + num2
-// console.log(ternaryResult)
+ternaryResult
+let ternaryResult = num1 >= num2? num1 * 2: num1 + num2
+console.log(ternaryResult)
 
 
 
