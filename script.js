@@ -145,3 +145,10 @@ let tometo = 100;
 
 tometo = lider === false ? tometo > 1000? tometo / 2: 0 : tometo + 100;
 console.log(tometo)
+
+
+
+
+
+
+
