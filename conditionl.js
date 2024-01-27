@@ -201,22 +201,4 @@ else{
 }
 console.log(tiketPrice)
 
-let age = 117;
-let students = true;
-let senior = 60;
-let tiketPrice = 800;
-
-if(age < 10){
-    console.log("free")
-}else if (students){
-    tiketPrice = tiketPrice * 50 / 100; 
-}
-else if (age >= 60){
-    tiketPrice = tiketPrice * 15 / 100; 
-}
-
-else{
-    console.log("Regular ticket fare 800 tk")
-}
-console.log(tiketPrice)
 
